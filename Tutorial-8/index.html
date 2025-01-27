@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Block and Inline Elements</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 
+    Block elements - They occupy the full width by default which can be changes using display property in CSS. For ex. <p>, <div>
+    Inline elements - They occupy the specified width by default but can be changed using display property in CSS. For ex. <a>, <span>
+    -->
+
+    <p>I am a para</p>
+    <a href="https://www.google.com">Google</a>
+
+    <!-- 
+    Note - the following <div> occupied the next line and not from <a> because block element need full width by default
+    -->
+    <div>I am div and a block element.</div>
+
+    <!-- 
+    Avoid unnecessary spaces, they won't be parsed in a html file
+    -->
+
+    <span>I am span and an inline element</span>
+    <a href="http://">Another inline element</a>
+  </body>
+</html>
