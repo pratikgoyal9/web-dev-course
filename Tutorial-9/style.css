@@ -1,0 +1,19 @@
+/* 
+Id
+    - Use `#`
+
+Classes
+    - Use `.`
+    - When specified same property in different classes, the last dupe property in order is picked up
+
+*/
+
+
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.red {
+    color: red;
+}
