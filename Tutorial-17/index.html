@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <style>
+      /* Element selector will apply property to all div*/
+      div {
+        /* background-color: red; */
+      }
+
+      /* Class selector */
+      .red {
+        background-color: red;
+      }
+
+      /* Id selector */
+      #blue {
+        background-color: green;
+      }
+
+      /* Child selector should be direct*/
+      div > p {
+        /* background-color: brown; */
+        /* color: white; */
+      }
+
+      /* Descendant selector means span should be under div in any form */
+      div span {
+        background-color: aqua;
+      }
+
+      /* Universal selector */
+      * {
+        margin: 0;
+      }
+
+      /* Pseudo selectors */
+      a:visited {
+        color: green;
+      }
+      a:link {
+        color: aqua;
+      }
+      /* wherever p is the first child of an element */
+      p:first-child {
+        color: bisque;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="red">I am a div</div>
+    <div id="blue">I am another div</div>
+    <div>
+      <p>I am para 1</p>
+    </div>
+    <div>
+      <article>
+        <span> I am a span </span>
+      </article>
+    </div>
+    <div>
+      <a href="https://www.google.com">Go to Google</a>
+    </div>
+    <div class="main">
+      <p>Para 1</p>
+      <p>Para 2</p>
+    </div>
+  </body>
+</html>
